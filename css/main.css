@@ -1,0 +1,26 @@
+/* CSS class for all sticky notes */
+.sticky
+{
+	position:absolute;
+	width:240px; 
+	height:240px; /*if no height, the sticky will grow with the text*/
+	padding:5px;
+	background-image: url(../img/wallpaper.jpg);	
+	background-size: 135%;
+	border:1px solid black;
+	cursor:move; /*mouseover cursor indicates the sticky can be moved */
+}
+
+/* CSS class for the title field of the sticky form */
+.title
+{
+	background-color: transparent;
+	resize: none;
+}
+
+/* CSS class for the subject field of the sticky form */
+.subject
+{
+	background-color: transparent;
+	resize: none;
+}
